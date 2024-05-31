@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+h1,
+.input,
+.input::placeholder {
+	font-family: "Playfair Display", serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 96px;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	margin: 96px;
+}
+
+form {
+	gap: 24px;
+	align-items: center;
+}
+
+.input {
+	border: 1px solid #c4c4c4;
+	width: 505px;
+	resize: none;
+	padding: 12px;
+
+	font-weight: bold;
+}
+
+.input::placeholder {
+	color: #c4c4c4;
+}
+
+button {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24.5px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+	width: 295px;
+	height: 55.5px;
+	box-shadow: none;
+
+	background-color: #30abae;
+	color: white;
+	border: unset
+}
